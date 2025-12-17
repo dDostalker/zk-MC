@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Schnorr零知识证明数据包 - 用于验证玩家挖掘方块的坐标"
+  }
+}

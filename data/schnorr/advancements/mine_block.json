@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "mine_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:mineable/pickaxe"
+          }
+        },
+        "item": {
+          "tag": "minecraft:pickaxes"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "schnorr:on_block_mined"
+  }
+}
+
